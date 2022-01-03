@@ -18,34 +18,41 @@ html {
   left: 0; */
   display: flex;
   justify-content: space-between;
-  gap: 80rem;
+  /* gap: 80rem; */
   width: 90%;
   margin: 0 auto;
 }
 .container .name {
   font-size: 3.2rem;
-  font-weight:700;
-  padding:1rem;
+  font-weight: 700;
+  padding: 1rem;
   z-index: 100;
   color: #333;
 }
+.capital {
+  color: white;
+}
+.capital:after {
+  content: "eepak";
+  color: #333;
+}
+
 .name:after {
   position: absolute;
-    top: .9rem;
-    left: 6.9rem;
-    width: 4rem;
-    height: 4rem;
-    content: '';
-    background: #3e64ff;
-    z-index: -1;
-    border-radius: 50%;
+  top: 1.5rem;
+  left: 6.9rem;
+  width: 4rem;
+  height: 4rem;
+  content: "";
+  background: #3e64ff;
+  z-index: -1;
+  border-radius: 50%;
   /* top: 50%;
   left: 50%; */
   /* transform: translate(-50%, -50%); */
-
 }
 /* .container .name::after { */
-  /* content: "";
+/* content: "";
   display: block;
   width: 50%;
   padding-bottom: 50%;
@@ -54,5 +61,21 @@ html {
   z-index: -1;
   /* top: 50%;
   left: 50%; */
-  /* transform: translate(-50%, -50%); */ */
+/* transform: translate(-50%, -50%); */
 /* } */
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  padding: 1rem;
+}
+.main-nav-list li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #333;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #3e64ff;
+  border-bottom: 1px solid #3e64ff;
+}
