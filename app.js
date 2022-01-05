@@ -14,7 +14,7 @@ let letter = "";
   if (element) {
     element.textContent = letter;
   }
-  if (letter.length === currentText.length) {
+  if (letter === currentText) {
     count++;
     index = 0;
   }
