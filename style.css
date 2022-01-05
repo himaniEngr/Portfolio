@@ -304,6 +304,9 @@ svg {
   display: flex;
   flex-direction: column;
 }
+.progress-bars .grid {
+  gap: 1.2rem;
+}
 .level {
   margin-left: 12rem;
   font-size: 1.8rem;
