@@ -232,9 +232,40 @@ a .download-cv {
 }
 .skills tr {
   font-size: 1.8rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 .skills tr td {
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1rem 8rem;
+  /* padding: 25% 5%; */
+  margin: 3rem;
+}
+.progress-bars {
+  display: flex;
+}
+.skill {
+  width: 16rem;
+  height: 16rem;
+  /* background-color: red; */
+  position: relative;
+  margin-left: 10rem;
+}
+.outer {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  padding: 2rem;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
