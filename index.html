@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="favicon.png" />
+    <script src='app.js'></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -20,7 +21,7 @@
         <div class="name">
           <span class="capital">D</span>
         </div>
-        <div class="main-nav">
+        <div class="main-nav ">
           <ul class="main-nav-list">
             <li>
               <a href="#home" class="main-nav-link">Home</a>
@@ -45,7 +46,7 @@
         <h1 class="heading">Deepak Chawla</h1>
         <div class="designation">
           I'm a
-          <span>JavaScript Developer.</span>
+          <span class='typing'></span>
         </div>
         <div class="icon"><ion-icon name="arrow-down-outline"></ion-icon></div>
       </div>
@@ -95,13 +96,37 @@
       </div>
     </section>
     <section class="section-education">
+      <div class="heading-name">Experience</div>
+      <!-- <ion-icon name="folder-outline"></ion-icon> 
+      -->
+      <div class="edu">
+        <img class="icon" src="ideas.png" alt="icon" />
+        <div class="degree">
+          <div class="year">2014-2015</div>
+          <div class="course-name">
+            Software Developer-1
+          </div>
+          <div class="institute">Hashed In</div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+            quia, illo accusamus ipsum ad in unde esse nihil tempore voluptate
+            quis fugiat architecto autem aut similique voluptas dignissimos eum
+            harum!
+          </p>
+          <br>
+        </br>
+        </div>
+      </div>
+      
+    </section>
+    <section class="section-education">
       <div class="heading-name" id='resume'>Education</div>
       <!-- <ion-icon name="folder-outline"></ion-icon> 
       -->
       <div class="edu">
         <img class="icon" src="ideas.png" alt="icon" />
         <div class="degree">
-          <div class="ed-year">2014-2015</div>
+          <div class="year">2014-2015</div>
           <div class="course-name">
             Bachelor of Engineering in Computer Science
           </div>
@@ -118,6 +143,7 @@
       </div>
       
     </section>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

@@ -81,6 +81,18 @@ html {
   color: #3e64ff;
   border-bottom: 1px solid #3e64ff;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.966);
+  z-index: 9999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.062);
+}
 .introduction {
   width: 100%;
   height: 100vh;
@@ -101,6 +113,26 @@ html {
 .designation {
   font-size: 2.4rem;
   font-weight: 700;
+}
+.typing {
+  margin-left: 10px;
+  position: relative;
+}
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  border-right: 2px solid #333;
+  animation: blink 1s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .icon {
   font-size: 3.6rem;
@@ -175,7 +207,7 @@ table th {
   padding-bottom: 1.8rem;
   border-bottom: 1px solid #eee;
 }
-.ed-year {
+.year {
   margin-top: 2.4rem;
   color: #3e64ff;
   font-weight: 600;
