@@ -227,3 +227,14 @@ a .download-cv {
   font-size: 2.4rem;
   font-weight: 600;
 }
+.skills {
+  margin-left: 2rem;
+}
+.skills tr {
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+.skills tr td {
+  padding: 1rem;
+  margin: 1rem;
+}
