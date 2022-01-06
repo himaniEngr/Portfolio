@@ -437,3 +437,58 @@ svg {
   text-transform: uppercase;
   margin-top: 1.8rem;
 }
+
+.section-footer {
+  background-color: #192866;
+  color: white;
+  gap: 3rem;
+  padding: 9.6rem;
+
+  padding-bottom: 4.8rem;
+}
+.heading-footer {
+  font-size: 3rem;
+  /* text-align: center; */
+}
+.about p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.links {
+  align-self: center;
+  padding-left: 12rem;
+}
+.links-footer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.links-footer li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.footer-item {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 2rem;
+}
+.copyright-message {
+  background-color: #192866;
+  padding: 3.6rem;
+}
+.copyright {
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.copyright-message p a {
+  text-decoration: none;
+  color: white;
+}
