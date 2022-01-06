@@ -286,6 +286,13 @@ circle {
   stroke-dashoffset: 472;
   animation: anim 2s linear forwards;
 }
+.expert circle {
+  animation: exp 2s linear forwards;
+}
+.beginner circle {
+  animation: beginner 2s linear forwards;
+}
+
 svg {
   position: absolute;
   top: 0;
@@ -297,6 +304,19 @@ svg {
     stroke-dashoffset: 165;
   }
 }
+@keyframes exp {
+  100% {
+    /* 472-472=0*/
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes beginner {
+  100% {
+    /* 472-165=307*/
+    stroke-dashoffset: 307;
+  }
+}
+
 .skill {
   margin-bottom: 1.8rem;
 }
@@ -306,9 +326,52 @@ svg {
 }
 .progress-bars .grid {
   gap: 1.2rem;
+  text-align: center;
 }
 .level {
   margin-left: 12rem;
   font-size: 1.8rem;
   padding-bottom: 2rem;
+  text-align: left;
+}
+.exp .level {
+  text-align: right;
+}
+.projects {
+  gap: 4rem;
+}
+.project-img {
+  width: 100%;
+}
+.project {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 1.8rem;
+}
+.project:hover {
+  transform: translateY(-1.2rem);
+}
+.tech-tags {
+  gap: 2rem;
+  padding: 1rem;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 100px;
+  font-weight: 600;
+  background-color: #e91e63;
+  text-align: center;
+}
+.project-name {
+  font-size: 2.4rem;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+}
+.project p {
+  padding: 0.5rem 2rem;
 }

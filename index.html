@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="favicon.png" />
-    <script src='app.js'></script>
+    <link rel="icon" href="img/favicon.png" />
+    <script src='script/app.js'></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -52,9 +52,9 @@
         <div class="icon"><ion-icon name="arrow-down-outline"></ion-icon></div>
       </div>
     </header>
-    <section class="hero-section grid--2-cols">
+    <section class="hero-section contain grid grid--2-cols">
       <div class="image">
-        <img src="Deepak.png" alt="Picture of Deepak" />
+        <img src="img/Deepak.png" alt="Picture of Deepak" />
       </div>
       <div class="primary-intro">
         <h1 id="about">About Me</h1>
@@ -101,7 +101,7 @@
       <!-- <ion-icon name="folder-outline"></ion-icon> 
       -->
       <div class="edu">
-        <img class="icon" src="ideas.png" alt="icon" />
+        <img class="img/icon" src="ideas.png" alt="icon" />
         <div class="degree">
           <div class="year">2014-2015</div>
           <div class="course-name">
@@ -125,7 +125,7 @@
       <!-- <ion-icon name="folder-outline"></ion-icon> 
       -->
       <div class="edu">
-        <img class="icon" src="ideas.png" alt="icon" />
+        <img class="icon" src="img/ideas.png" alt="icon" />
         <div class="degree">
           <div class="year">2014-2015</div>
           <div class="course-name">
@@ -149,7 +149,7 @@
       <!-- <ion-icon name="folder-outline"></ion-icon> 
       -->
       <div class="edu">
-        <img class="icon" src="ideas.png" alt="icon" />
+        <img class="img/icon" src="ideas.png" alt="icon" />
         <div class="degree">
           <div class="year">2014-2015</div>
           <div class="course-name">
@@ -272,7 +272,7 @@
                     <div id="number">ReactJS</div>
                   </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <svg class='beginner' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                   <defs>
                      <linearGradient id="GradientColor">
                         <stop offset="0%" stop-color="#e91e63" />
@@ -282,7 +282,7 @@
                   <circle cx="80" cy="80" r="70" stroke-linecap="round" />
                 </svg>
               </div>
-              <div class="level">Intermediate</div>
+              <div class="level">Beginner</div>
             </div>
             <div class="skill-level">
               <div class="skill">
@@ -310,14 +310,14 @@
                     <div id="number">CSS</div>
                   </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <svg  class='intermediate' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                   <defs>
                      <linearGradient id="GradientColor">
                         <stop offset="0%" stop-color="#e91e63" />
                         <stop offset="100%" stop-color="#673ab7" />
                      </linearGradient>
                   </defs>
-                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                  <circle  cx="80" cy="80" r="70" stroke-linecap="round" />
                 </svg>
               </div>
               <div class="level">Intermediate</div>
@@ -329,30 +329,61 @@
                     <div id="number">NodeJS</div>
                   </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <svg class='expert' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                   <defs>
                      <linearGradient id="GradientColor">
                         <stop offset="0%" stop-color="#e91e63" />
                         <stop offset="100%" stop-color="#673ab7" />
                      </linearGradient>
                   </defs>
-                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                  <circle  cx="80" cy="80" r="70" stroke-linecap="round" />
                 </svg>
               </div>
-              <div class="level">Intermediate</div>
+              <div class="level">Expert</div>
             </div>
           </div>
           </div>
         </div>
-      
-
-      
-      
-
-
-
     </section>
-
+    <section class="section-projects contain" id='projects'>
+      <div class="heading-name">Projects</div>
+      <div class="projects grid grid--3-cols">
+        <div class="project">
+          <img class="project-img" src="img/project1.jpg" alt=""/>
+          <div class='tech-tags grid grid--4-cols'>
+            <span class='tag'>HTML</span>
+            <span class='tag'>CSS</span>
+            <span class='tag'>ReactJS</span>
+            <span class='tag'>Nodejs</span>
+          </div>
+          <div class="project-name">Project 1</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsam sed nostrum error itaque tempore harum provident atque, repellat ab eveniet nihil qui, inventore quis incidunt quisquam tenetur animi consequuntur.</p>
+        </div>
+        <div class="project">
+          <img class="project-img" src="img/project1.jpg" alt=""/>
+          <div class='tech-tags grid grid--4-cols'>
+            <span class='tag'>HTML</span>
+            <span class='tag'>CSS</span>
+            <span class='tag'>ReactJS</span>
+            <span class='tag'>Nodejs</span>
+          </div>
+          <div class="project-name">Project 2</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsam sed nostrum error itaque tempore harum provident atque, repellat ab eveniet nihil qui, inventore quis incidunt quisquam tenetur animi consequuntur.</p>
+        </div>
+        <div class="project">
+          <img class="project-img" src="img/project1.jpg" alt=""/>
+          <div class='tech-tags grid grid--4-cols'>
+            <span class='tag'>HTML</span>
+            <span class='tag'>CSS</span>
+            <span class='tag'>ReactJS</span>
+            <span class='tag'>Nodejs</span>
+          </div>
+          <div class="project-name">Project 3</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsam sed nostrum error itaque tempore harum provident atque, repellat ab eveniet nihil qui, inventore quis incidunt quisquam tenetur animi consequuntur.</p>
+        </div>
+      </div>
+    </section>
+    
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
