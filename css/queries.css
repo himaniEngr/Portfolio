@@ -1,0 +1,33 @@
+/* for width 1120px */
+@media (max-width: 70em) {
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* for width 848px */
+@media (max-width: 53em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* for width 544 */
+@media (max-width: 34em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  .tech-tags {
+    display: flex;
+    gap: 1rem;
+  }
+}

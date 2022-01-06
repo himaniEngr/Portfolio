@@ -31,15 +31,15 @@ html {
   z-index: 100;
   color: #333;
 }
-.capital {
+/* .capital {
   color: white;
 }
 .capital:after {
   content: "eepak";
   color: #333;
-}
+} */
 
-.name:after {
+/* .name:after {
   position: absolute;
   top: 1.5rem;
   left: 6.9rem;
@@ -48,11 +48,11 @@ html {
   content: "";
   background: #3e64ff;
   z-index: -1;
-  border-radius: 50%;
-  /* top: 50%;
+  border-radius: 50%; */
+/* top: 50%;
   left: 50%; */
-  /* transform: translate(-50%, -50%); */
-}
+/* transform: translate(-50%, -50%); */
+/* } */
 /* .container .name::after { */
 /* content: "";
   display: block;
@@ -144,13 +144,11 @@ html {
   display: flex;
   width: 90%;
   margin: 0 auto;
+  gap: 3.2rem;
   /* gap: 2rem; */
 }
 .image {
   width: 100%;
-}
-.image img {
-  width: 80%;
 }
 .primary-intro h1 {
   font-size: 4.8rem;
