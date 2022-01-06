@@ -26,8 +26,12 @@
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+  .contain .icon {
+    width: 3.2rem;
+  }
   .tech-tags {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
   }
   .links {
