@@ -173,13 +173,15 @@ table th {
   margin-top: 3.2rem;
   font-size: 2.4rem;
 }
-.download-cv {
+.download-cv,
+.send-mesg {
   width: 19rem;
   border: none;
   background-color: #3e64ff;
   border-radius: 2.4rem;
   padding: 1rem;
   color: white;
+  font-family: inherit;
 }
 a .download-cv {
   color: white;
@@ -404,13 +406,34 @@ svg {
 .contact-item h3 {
   font-size: 2.4rem;
   font-weight: 600;
+  margin-top: 2rem;
 }
 .contact-item p {
   color: #777;
 }
-/* .section-message {
+.section-message {
   background-color: #f8f9fa;
+  gap: 2rem;
+  margin-bottom: 4.8rem;
 }
 .section-message img {
   width: 100%;
-} */
+}
+.section-message input,
+.message {
+  width: 90%;
+  border: 1px solid #b4bfca;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 1rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+.message {
+  height: 24rem;
+}
+.send-mesg {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 1.8rem;
+}
