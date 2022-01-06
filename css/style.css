@@ -348,6 +348,7 @@ svg {
   border-radius: 12px;
   overflow: hidden;
   font-size: 1.8rem;
+  transition: all 0.4s;
 }
 .project:hover {
   transform: translateY(-1.2rem);
@@ -364,7 +365,7 @@ svg {
   color: white;
   border-radius: 100px;
   font-weight: 600;
-  background-color: #e91e63;
+  background-color: #3e64ff;
   text-align: center;
 }
 .project-name {
@@ -375,3 +376,41 @@ svg {
 .project p {
   padding: 0.5rem 2rem;
 }
+
+.section-contact {
+  margin-bottom: 4.8rem;
+}
+.contact {
+  gap: 3rem;
+}
+.section-contact p {
+  font-size: 1.8rem;
+  padding: 2rem;
+}
+.contact-item {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  text-align: center;
+}
+.contact-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-top: 4.8rem;
+  z-index: 1;
+  color: white;
+  background: #3e64ff;
+  border-radius: 50%;
+  padding: 2rem;
+}
+.contact-item h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.contact-item p {
+  color: #777;
+}
+/* .section-message {
+  background-color: #f8f9fa;
+}
+.section-message img {
+  width: 100%;
+} */
