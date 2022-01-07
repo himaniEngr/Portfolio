@@ -31,7 +31,7 @@
   /* mobile navigation */
   .btn-mobile-nav {
     display: block;
-    z-index: 1000;
+    z-index: 10000;
   }
   .main-nav {
     background-color: rgba(255, 255, 255, 0.9);
@@ -56,6 +56,7 @@
     pointer-events: none;
     /* make it invisible to screen-readers */
     visibility: hidden;
+    z-index: 1000;
   }
   .nav-open .main-nav {
     opacity: 1;
@@ -79,13 +80,13 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
-  .typing {
+  /* .typing {
     display: none;
     content: "Developer";
   }
   .icon {
     display: none;
-  }
+  } */
 
   .contain .icon {
     width: 3.2rem;
