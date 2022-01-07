@@ -29,3 +29,22 @@ const headerEl = document.querySelector(".container");
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
+
+// sticky navigation bar
+const sectionHeroEl = document.querySelector(".introduction");
+const parentEl = document.querySelector(".container");
+const observer = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+    if (ent.isIntersecting == false) headerEl.classList.add("sticky");
+    if (ent.isIntersecting == true) headerEl.classList.remove("sticky");
+  },
+  {
+    //in the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+observer.observe(sectionHeroEl);
