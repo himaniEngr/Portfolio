@@ -20,6 +20,7 @@
 @media (max-width: 39em) {
   html {
     font-size: 56.25%;
+    overflow-x: hidden;
   }
   .grid--2-cols,
   .grid--3-cols,
@@ -80,6 +81,7 @@
   }
   .typing {
     display: none;
+    content: "Developer";
   }
   .icon {
     display: none;
