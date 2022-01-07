@@ -22,3 +22,11 @@ let letter = "";
 })();
 
 // console.log("test");
+// make mobile navigation work
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+console.log(btnNavEl);
+const headerEl = document.querySelector(".container");
+// ("nav-open");
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
