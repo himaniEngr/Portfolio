@@ -48,3 +48,9 @@ const observer = new IntersectionObserver(
   }
 );
 observer.observe(sectionHeroEl);
+
+//adding current year
+const yearEl = document.querySelector(".yearEl");
+const currentYr = new Date().getFullYear();
+// console.log(currentYr);
+yearEl.textContent = currentYr;
