@@ -349,8 +349,8 @@ svg {
 }
 .progress-bars {
   gap: 1.2rem;
-  text-align: center;
-  justify-content: center;
+  /* text-align: center;
+  justify-content: center; */
 }
 .level {
   margin-left: 12rem;
