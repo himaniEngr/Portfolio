@@ -6,7 +6,7 @@
 html {
   font-family: poppins, sans-serif;
   font-size: 62.5%;
-  color: #333;
+  color: #555;
   scroll-behavior: smooth;
 }
 /* .overlay {
@@ -160,7 +160,7 @@ html {
 }
 .icon {
   font-size: 3.6rem;
-  margin: 2rem;
+  margin: 2.4rem;
 }
 .hero-section {
   display: flex;
@@ -236,6 +236,7 @@ a .download-cv {
   padding-bottom: 1.8rem;
   border-bottom: 1px solid #eee;
 }
+
 .year {
   margin-top: 2.4rem;
   color: #3e64ff;
@@ -378,6 +379,7 @@ svg {
 .tech-tags {
   gap: 2rem;
   padding: 1rem;
+  align-items: center;
 }
 .tag {
   display: inline-block;
@@ -395,8 +397,12 @@ svg {
   padding: 0.5rem 2rem;
   font-weight: 600;
 }
-.project p {
+/* .project p {
   padding: 0.5rem 2rem;
+} */
+.project ul li {
+  margin: 0 1rem 1rem 3rem;
+  font-size: 1.8rem;
 }
 
 .section-contact {
@@ -430,6 +436,10 @@ svg {
 }
 .contact-item p {
   color: #777;
+}
+.website p a {
+  text-decoration: none;
+  color: #555;
 }
 .section-message {
   background-color: #f8f9fa;
