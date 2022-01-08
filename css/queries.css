@@ -15,11 +15,20 @@
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+  .outer {
+    width: 17.5rem;
+    height: 17.5rem;
+    /* box-shadow: none;ss */
+  }
+  .inner {
+    width: 13.5rem;
+    height: 13.5rem;
+  }
 }
 /* for width 624 */
 @media (max-width: 39em) {
   html {
-    font-size: 56.25%;
+    /* font-size: 56.25%; */
     overflow-x: hidden;
   }
   body {
@@ -29,6 +38,11 @@
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  svg {
+    margin: 0 auto;
   }
 
   /* mobile navigation */
@@ -99,5 +113,8 @@
   }
   .links {
     padding-left: 0;
+  }
+  .skill-level {
+    margin-left: 3rem;
   }
 }

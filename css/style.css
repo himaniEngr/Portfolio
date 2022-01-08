@@ -266,8 +266,8 @@ a .download-cv {
   display: flex;
 }
 .skill {
-  width: 16rem;
-  height: 16rem;
+  width: 18rem;
+  height: 18rem;
   /* background-color: red; */
   position: relative;
   margin-left: 10rem;
@@ -347,9 +347,10 @@ svg {
   display: flex;
   flex-direction: column;
 }
-.progress-bars .grid {
+.progress-bars {
   gap: 1.2rem;
   text-align: center;
+  justify-content: center;
 }
 .level {
   margin-left: 12rem;
