@@ -18,6 +18,9 @@
     <title>Deepak Chawla</title>
   </head>
   <body>
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
     <header>
       <div class="container sticky" id="home">
         <a href="#home"><img src="img/name-icon.png" alt="deepak"></a>
@@ -805,6 +808,13 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <!-- loader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
     </script>
   </body>
 </html>
