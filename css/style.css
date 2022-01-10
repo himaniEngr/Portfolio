@@ -300,17 +300,17 @@ a .download-cv {
   font-weight: 600;
 }
 .skills {
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
-.skills tr {
+/* .skills tr {
   font-size: 1.8rem;
   margin: 2rem;
 }
 .skills tr td {
   padding: 1rem 8rem;
-  /* padding: 25% 5%; */
-  margin: 3rem;
-}
+  /* padding: 25% 5%;
+ } */
+
 .progress-bars {
   display: flex;
 }

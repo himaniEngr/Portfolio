@@ -38,8 +38,8 @@
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   /* mobile navigation */
@@ -112,6 +112,6 @@
     padding-left: 0;
   }
   .skill-level {
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
 }
